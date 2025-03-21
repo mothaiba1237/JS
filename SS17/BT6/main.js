@@ -1,0 +1,12 @@
+let num1 = Number("5");
+let num2 = Number("-1");
+let num3 = Number("Hello");
+document.writeln("Chuyển đổi '5' thành số:", num1,"<br>");
+document.writeln("Chuyển đổi '-1' thành số:", num2,"<br>");
+document.writeln("Chuyển đổi 'Hello' thành số:", num3,"<br>");
+let str1 = String(55);
+let str2 = String(-10);
+let str3 = String(0);
+document.writeln("Chuyển đổi 55 thành chuỗi:", str1,"<br>");
+document.writeln("Chuyển đổi -10 thành chuỗi:", str2,"<br>");
+document.writeln("Chuyển đổi 0 thành chuỗi:", str3,"<br>");

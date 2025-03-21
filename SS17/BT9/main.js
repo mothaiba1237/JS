@@ -1,0 +1,10 @@
+let a = parseInt(prompt("nhap vao a: "))
+let b = parseInt(prompt("nhap vao b: "))
+let c = parseInt(prompt("nhap vao c: "))
+let d = b*b-4*a*c
+let x1 = (-b+Math.sqrt(d))/(2*a)
+let x2 = (-b-Math.sqrt(d))/(2*a)
+alert("x1 = "+x1)
+alert("x2 = "+x2)
+document.writeln("x1 = "+x1)
+document.writeln("x2 = "+x2)

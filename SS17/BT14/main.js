@@ -1,0 +1,15 @@
+let r = parseInt(prompt("Nhập bán kính:"));
+let h = parseInt(prompt("Nhập chiều cao:"));
+const pi = Math.PI;
+let C = 2 * pi * r;
+let S = 2 * pi * r * h;
+let Stp = S + 2 * pi * r * r;
+let v = pi * r * r * h;
+alert("Chu vi đáy: " + C.toFixed(2));
+alert("Diện tích xung quanh: " + S.toFixed(2));
+alert("Diện tích toàn phần: " + Stp.toFixed(2));
+alert("Thể tích: " + v.toFixed(2));
+document.writeln("Chu vi đáy: " + C.toFixed(2) + "<br>");
+document.writeln("Diện tích xung quanh: " + S.toFixed(2) + "<br>");
+document.writeln("Diện tích toàn phần: " + Stp.toFixed(2) + "<br>");
+document.writeln("Thể tích: " + v.toFixed(2));

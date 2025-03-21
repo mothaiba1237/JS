@@ -1,0 +1,5 @@
+let a = parseFloat(prompt("nhap vao so thu 1: "))
+let b = parseFloat(prompt("nhap vao so thu 2: "))
+let c = parseFloat(prompt("nhap vao so thu 3: "))
+let max = (a > b && a > c) ? a : (b > c ? b : c)
+alert("so lon nhat trong 3 so la: "+max)

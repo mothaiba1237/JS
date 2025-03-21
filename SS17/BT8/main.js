@@ -1,0 +1,6 @@
+let date1 =new Date(prompt("nhap ngay thu 1: "))
+let date2 =new Date(prompt("nhap ngay thu 2: "))
+let ms = Math.abs(date1-date2)
+let soNgayLech = ms / (1000 * 60 * 60 * 24)
+alert("Do lech la: "+soNgayLech+"ngay")
+document.writeln("Do lech la: "+soNgayLech+"ngay")
